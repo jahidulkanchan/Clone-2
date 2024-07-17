@@ -29,7 +29,7 @@ li{
   display: inline-block;
   position: relative;
   background-color: var(--primary-bg);
-  padding: 13px 40px;
+  padding: 10px 30px;
   font-weight: 600;
   color: black;
   border-radius: 8px;
@@ -59,6 +59,7 @@ header{
   position: sticky;
   top: 0px;
   background-color: var(--primary-bg);
+  z-index: 9999;
 }
 /* header::after{
   position: absolute;
@@ -111,6 +112,22 @@ header nav li a:hover{
   width: 150px;
   object-fit: cover;
 }
+
+/* web-direction */
+.web-direction{
+  min-height: 400px;
+}
+
+/* Choose us  */
+.choose{
+  background-color: var(--primary-bg);
+}
+.choose .content{
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.171);
+}
+
 
 /* Pricing section */
 .pricing-section{
