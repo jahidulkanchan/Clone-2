@@ -1,0 +1,89 @@
+:root{
+  --primary-bg: #e3eaee;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+img{
+  width: 100%;
+}
+ul{
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+.primary-btn{
+  background-color: var(--primary-bg);
+  padding: 13px 40px;
+  color: black;
+}
+
+/* Header */
+header{
+  position: sticky;
+  top: 0px;
+  background-color: var(--primary-bg);
+}
+/* header::after{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: -5px;
+  left: 0;
+  background-color: #dadfe2ca;
+  filter: blur(2px);
+  z-index: -1;
+} */
+header .logo{
+  font-weight: bold;
+  font-size: 30px;
+}
+header nav li a{
+  color: black;
+  font-weight: 700;
+  text-shadow: 7px -10px #ff000000;
+  transition: all ease .3s ;
+}
+header nav li a:hover{
+  text-shadow: 0px 0px #000000;
+}
+
+/* Banner-section */
+.banner-section h1{
+  font-weight: 700;
+}
+
+/* Statistic section */
+.statistic-section{
+  min-height: 400px;
+  background-color: var(--primary-bg);
+}
+/* service-section */
+.service-section{
+  min-height: 500px;
+}
+.service-section .content{
+  border: 1px solid #c2d0d5;
+  margin: 10px 0px;
+  border-radius: 8px;
+}
+.service-section .content{
+  min-height: 200px;
+}
+.service-section .content img{
+  max-width: 150px;
+  max-height: 120px;
+  object-fit: cover;
+}
